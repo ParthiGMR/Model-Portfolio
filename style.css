@@ -6,6 +6,25 @@ body{
 background-color: rgba(0, 0, 0, 0.98);
 font-family: Inter, sans-serif;
 }
+#navbar{
+	display: none;
+	position: fixed;
+  height: 100%;
+	width: 70%;
+	left: 0;
+	top: 0;
+	background-color: lightgrey;
+	z-index: 1;
+	
+}
+#navbar .nav1{
+	display: none;
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 4rem;
+	text-align: center;
+}
 #header{
 display: flex;
 color: white;
@@ -233,6 +252,9 @@ padding-left: 0.6rem;
 #ft22{
 	display: none;
 }
+#navbar{
+	display: none;
+}
 }
 @media screen and (max-width: 1288px) {
 	.name
@@ -326,6 +348,7 @@ font-size: 16px;
 }
 .hamburger-menu{
 	display: block;
+	cursor: pointer;
 }
 .B1{
 	display: block;
@@ -1161,3 +1184,4 @@ padding-left: 0.4rem;
 
 }
 }
+
